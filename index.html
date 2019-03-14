@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<div class="absolute-container">
+		<h1>Calculator</h1>
+		<div class="input-container">
+			<span class="input">Enter Your Equation</span>
+			<a class="answer" title="Answer"></a>
+		</div>
+		<div class="input-div grid">
+			<ul class="oper span-col-4">
+					<li onclick="clearAll()">CE</li>
+					<li>/</li>
+					<li>x</li>
+					<li>-</li>
+				</ul>
+				
+				<ul class="cal-pad span-col-3">
+						<li>7</li>
+						<li>8</li>
+						<li>9</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>0</li>
+						<li class="point">.</li>
+					</ul>
+					<ul class="sidebar">
+						<li>+</li>
+						<li class="equalto" onclick="finalEvaluate()">=</li>
+					</ul>
+		</div>
+	</div>
+	<script src="js/app.js"></script>
+
+</body>
+
+</html>
+
+
+
